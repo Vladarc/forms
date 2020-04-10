@@ -160,3 +160,7 @@ color: #b9b9b9;
 color: #ff2b58;
 font-weight: 700;
 }
+input:focus::placeholder,
+textarea:focus::placeholder{
+color: transparent;
+}
